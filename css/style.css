@@ -6,13 +6,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*impostazione background*/
 
 .background-red, .background-green, .background-yellow{
     height: 100vh;
-    background-size: cover;
-    position: relative;
-    background-position: center;
+    align-items: center;
 } 
 
 .background-red{
@@ -27,3 +29,8 @@
     background-color: yellow ;
 }
 
+/*impostazione centratura immagini*/
+
+.image-text{
+    text-align: center;
+}
