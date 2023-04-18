@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Russo One', sans-serif;
 }
 
 /*impostazione background*/
@@ -46,8 +47,7 @@ nav {
 
 li{
     display: inline-block;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
+    font-family: 'Russo One', sans-serif;}
 
 li > a {
     width: 60px;
@@ -62,4 +62,16 @@ li > a {
     font-size: 30px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
+}
+
+/*impostazioni del testo*/
+
+.text-shoes{
+    font-size: 60px;
+    color: yellow;
+}
+
+.text-shoes-three{
+    font-size: 60px;
+    color: green;
 }
