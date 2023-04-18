@@ -6,3 +6,24 @@
     box-sizing: border-box;
 }
 
+/*impostazione background*/
+
+.background-red, .background-green, .background-yellow{
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+} 
+
+.background-red{
+    background-color: red;
+}
+
+.background-green{
+    background-color: green ;
+}
+
+.background-yellow{
+    background-color: yellow ;
+}
+
