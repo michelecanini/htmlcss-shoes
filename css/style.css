@@ -34,3 +34,32 @@ html {
 .image-text{
     text-align: center;
 }
+
+/*impostazioni di scorrimento nav*/
+
+nav {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 1;
+}
+
+li{
+    display: inline-block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+li > a {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    display: block;
+    border-radius: 50%;
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 30px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
